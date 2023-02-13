@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Zing Furnitures</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="mx-auto p-6">
+        <!-- flex class -->
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- logo -->
+            <div class="logo">
+                <img src="./images/Logo.png" alt="logo">
+            </div>
+    
+            <!-- list items -->
+            <ul class="nav flex items-center justify-between space-x-6">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li>
+                    <select name="select">
+                        <option value="product"><a href="#product">Product</a></option>
+                    </select>
+                </li>
+                <li><a href="#testimonial">Testimonial</a></li>
+            </ul>
+    
+            <!-- buttons -->
+            <ul class="btn  flex items-center justify-between space-x-6">
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="bg-orange py-2 px-3 text-white">Buy online</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- content -->
+
+    <!-- hero section -->
+    <section id="home">
+        <!-- flex container -->
+        <div class="container mx-auto text-center py-10 relative mt-[50px]">
+            <h1 class="text-darkBlue leading-[100%] text-[96px] font-[700]">Amazing furniture for <br> your home</h1>
+            <img src="./images/Elements.png" alt="" class="absolute right-[125px] top-[100px]">
+            <p class="text-[20px] font-[400] leading-[160%] mt-[50px] text-para">We think the chair is the most important piece of furniture in your home. Because if you love <br> the chair you are sitting in chances are you will love the rest of the room.</p>
+        </div>
+        <div class="relative">
+            <div class="search text-center flex relative items-center mt-[30px]">
+                <input type="text" placeholder="Search your product" class="py-[15px] px-[20px] w-[40%] absolute left-[30%] text-[20px]"> 
+                <img src="./images/search-normal.png" alt="" class="absolute left-[66%]">
+            </div>
+            <img src="./images/Image.png" alt="" class="w-full">
+        </div>
+    </section>
+    <!-- hero section ends-->
+
+    <!-- about section -->
+    <section id="about-us">
+        <div class="container mx-auto my-[50px]">
+            <h2 class="text-[64px] font-[700] text-darkBlue leading-[100px]">About us</h2>
+            <p class="text-para font-[400] text-[20px]">Comfort is key and how you feel about your chair <br> will affect how you feel and your mood.</p>
+
+            <div class="flex items-center justify-between">
+                <!-- mission -->
+                <div class="flex items-center justify-between gap-[30px] flex-wrap w-[45%]">
+            
+                    <div>
+                        <span class="text-orange font-[700] text-[64px] leading-[100%]">1</span>
+                        <h3 class="text-black font-[700] text-[24px] leading-[100%] my-[15px]">Mission</h3>
+                        <p class="text-about text-[20px] font-[400] leading-[160%]">It makes people at ease and feel <br> like they want to open up.</p>
+                    </div>
+                    <div>
+                        <span class="text-orange font-[700] text-[64px] leading-[100%]">2</span>
+                        <h3 class="text-black font-[700] text-[24px] leading-[100%] my-[15px]">Motivation</h3>
+                        <p class="text-about text-[20px] font-[400] leading-[160%]">The perfect mix of art that <br> complements the room's style.</p>
+                    </div>
+                    <div>
+                        <span class="text-orange font-[700] text-[64px] leading-[100%]">3</span>
+                        <h3 class="text-black font-[700] text-[24px] leading-[100%] my-[15px]">Vision</h3>
+                        <p class="text-about text-[20px] font-[400] leading-[160%]">Along with a healthy dose of negative <br> space to give the eyes <br> spots to rest.</p>
+                    </div>
+                    <div>
+                        <span class="text-orange font-[700] text-[64px] leading-[100%]">4</span>
+                        <h3 class="text-black font-[700] text-[24px] leading-[100%] my-[15px]">Goal</h3>
+                        <p class="text-about text-[20px] font-[400] leading-[160%]">Art that has meaning to the <br> people who live in the space.</p>
+                    </div>
+                </div>
+                <!-- images -->
+                <div class="card w-[45%]">
+                    <div class="card1">
+                        <img src="./images/Rectangle 5.png" alt="">
+                    </div>
+                    <div class="card2">
+                        <img src="./images/Rectangle 6.png" alt="">
+                    </div>
+                    <div class="card3">
+                        <img src="./images/Rectangle 7.png" alt="">
+                    </div>
+                    <div class="card4">
+                        <img src="./images/Rectangle 8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends-->
+    <!-- product section -->
+    <section id="product">
+        <div class="container mx-auto my-[80px]">
+            <h2 class="text-[64px] font-[700] text-center text-darkBlue">Products</h2>
+            <ul class="text-center flex items-center justify-center gap-[30px] text-[20px] font-[400] leading-[160%] text-para mt-[20px]">
+                <li class="text-orange">All</li>
+                <li>Chair</li>
+                <li>Table</li>
+                <li>Bed</li>
+                <li>Closet</li>
+                <li>Sofa</li>
+                <li>Cabinet</li>
+            </ul>
+            <!-- display -->
+            <div class="my-[30px] flex items-center justify-between flex-wrap">
+                <div class="cards mt-[10%] w-[23%] stool">
+                    <img src="./images/Stool.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Stool</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$200</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-[10%] w-[23%] tea">
+                    <img src="./images/Tea table.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Tea table</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$150</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-[10%] w-[23%]">
+                    <img src="./images/Sofa white.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Sofa-Light</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$300</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-[10%] w-[23%]">
+                    <img src="./images/Sofa black.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Sofa-Dark</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$300</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-[10%] w-[23%]">
+                    <img src="./images/Table lamp.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Table Lamp</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$50</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-[10%] w-[23%]">
+                    <img src="./images/Chair.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Chair</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$200</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-[10%] w-[23%]">
+                    <img src="./images/Bedside table.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Bedside Table</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$100</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards mt-[10%] w-[23%]">
+                    <img src="./images/Chair 2.png" alt="" class="cards-img" >
+                    <div class="mt-[50%]">
+                        <h4 class="font-[700] text-[24px] leading-[160%] text-darkBlue">Light Chair</h4>
+                        <div class="flex justify-between items-center">
+                            <p class="font-[400] text-[16px] leading-[160%] text-darkBlue">$80</p>
+                            <img src="./images/arrow-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section ends -->
+    <!-- testimonial section -->
+    <section id="testimonial">
+        <div class="bg-darkBlue">
+            <div class="container mx-auto py-[50px]">
+                <h2 class="font-[700] text-[64px] leading-[100%] text-white">What do customers say...</h2>
+                <div class="flex items-center justify-center mx-[100px] mt-[100px]">
+                    <div class="w-[40%] relative">
+                        <img src="./images/test-image.png" alt="">
+                        <img src="./images/Star 1.png" alt="" class="absolute bottom-0 left-[-55px]">
+                    </div>
+                    <div class="w-[40%] relative">
+                        <img src="./images/quote-up.png" alt="">
+                        <h3 class="font-[700] text-[36px] leading-[45px] text-white mb-[30px]">Amazing service</h3>
+                        <p class="font-[400] text-[20px] leading-[160%] text-test mb-[30px]">Since the online marketplace can be a scary place, the presence of customer reviews on an online store helps establish authenticity, confidence, and trust among shoppers. </p>
+                        <span class="text-orange text-[20px] leading-[100%] font-[700]">Wade Warren</span>
+                        <p class="font-[400] text-[16px] leading-[100%] text-test mt-[10px]">Doctor</p>
+                        <img src="./images/Arrows.png" alt="" class="absolute right-[40px] mt-[30px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section ends -->
+    <!-- contact us section -->
+    <section id="contact">
+        <div class="container mx-auto my-[50px]">
+            <div class="flex justify-between items-center">
+                <!-- images -->
+                <div class="card w-45%">
+                    <div class="card1">
+                        <img src="./images/Rectangle 12.png" alt="">
+                    </div>
+                    <div class="card2">
+                        <img src="./images/Rectangle 11.png" alt="">
+                    </div>
+                    <div class="card3">
+                        <img src="./images/Rectangle 10.png" alt=""> 
+                    </div>
+                    <div class="card4">
+                        <img src="./images/Rectangle 9.png" alt="">
+                    </div>
+                </div>
+                <!-- contact form -->
+                <div class="w-[45%]">
+                    <h2 class="font-[700] text-[64px] leading-[100%] text-darkBlue">Contact us</h2>
+                    <p class="font-[400] text-[20px] leading-[160%] text-para">Our team would love to hear from you!</p>
+                    <div class="fields">
+                        <div class="my-[15px]">
+                            <input type="text" placeholder="First Name" class="w-[45%]">
+                            <input type="text" placeholder="Last Name" class="w-[45%] ml-[28px]">
+                        </div>
+                        <div class="my-[15px]">
+                            <input type="email" name="email" id="email" placeholder="Email address" class="w-[95%]">
+                        </div>
+                        <div class="my-[15px]">
+                            <textarea name="text" id="taxt" cols="30" rows="10" placeholder="Message" class="w-[95%]"></textarea>
+                        </div>
+                        <input type="submit" value="Send message" class=" text-[16px] font-[700] leading-[20px] py-[10px] px-[20px] w-[95%]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us section ends -->
+    <!-- content end-->
+    <!-- footer -->
+    <footer class="bg-content">
+        <div class="container mx-auto my-50px py-[40px]">
+            <div class="flex justify-between items-center">
+                <div class="w-[20%]">
+                    <img src="./images/Logo.png" alt="">
+                    <p class="font-[400] text-[20px] leading-[160%] text-darkBlue">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                </div>
+                <div class="w-20%">
+                    <h4 class="font-[700] text-[20px] leading-[160%] text-darkBlue">Quick links</h4>
+                    <ul>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue">Gallery</li>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue">About us</li>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue">Buy online</li>
+                    </ul>
+                </div>
+                <div class="w-[20%] mb-[20px]">
+                    <h4 class="font-[700] text-[20px] leading-[160%] text-darkBlue">Policy</h4>
+                    <ul>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue">Terms & conditions</li>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue">Privacy policy</li>
+                    </ul>
+                </div>
+                <div class="w-[20%]">
+                    <h4 class="font-[700] text-[20px] leading-[160%] text-darkBlue">Social</h4>
+                    <ul>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue"><a href="#">Facebook</a></li>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue"><a href="#">Instagram</a></li>
+                        <li class="font-[400] text-[20px] leading-[25px] text-darkBlue"><a href="#">LinkedIN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="font-[400] text-[14px] leading-[18px] text-darkBlue text-center mt-[30px]">Copyright ©2023 Zaheer Inc. All right reserved.</p>
+        </div>
+    </footer>
+    <!-- footer ends -->
+</body>
+</html>

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: #ffffff;
+}
+
+nav {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  height: 80px;
+}
+
+input {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  display: grid;
+  gap: 23px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+
+.card1 {
+  grid-area: a;
+}
+.card2 {
+  grid-area: b;
+}
+.card3 {
+  grid-area: d;
+}
+.card4 {
+  grid-area: c;
+}
+
+.cards {
+  background: #fff8f0;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.cards-img {
+  position: absolute;
+  left: 50%;
+  top: -50%;
+  transform: translateX(-50%);
+}
+
+.tea img {
+  top: -38%;
+}
+
+.stool img {
+  top: -38%;
+}
+
+.fields input,
+textarea {
+  background: #ffffff;
+  border: 1px solid #112b3c;
+  padding: 10px 20px;
+  box-shadow: none;
+}
+
+input[type=submit]{
+  background: #F66B0E;
+  color: #ffffff;
+  border: none;
+}
